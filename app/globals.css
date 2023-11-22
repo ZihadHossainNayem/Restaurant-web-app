@@ -5,6 +5,17 @@
 * {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  width: 95%;
+  max-width: 1400px;
+  margin: auto;
 }
 
 h1 {
@@ -44,17 +55,50 @@ h6 {
 }
 
 p {
-  font-size: 20px;
   font-weight: 400;
   line-height: 126.5%;
 }
 
+@media (max-width: 639px) {
+  p {
+    font-size: 16px; /* for smaller screens (phones) */
+  }
+}
+
+@media (min-width: 640px) and (max-width: 1023px) {
+  p {
+    font-size: 18px; /* for medium screens (tablets) */
+  }
+}
+
+@media (min-width: 1024px) {
+  p {
+    font-size: 20px; /* for larger screens (desktops) */
+  }
+}
+
 .button {
   display: flex;
-  padding: 20px 50px;
   justify-content: center;
   align-items: center;
-  font-size: 22px;
   font-weight: 500;
   border: 2px solid #e1b168;
+}
+
+@media (max-width: 639px) {
+  .button {
+    padding: 10px 20px; /* for smaller screens (phones) */
+  }
+}
+
+@media (min-width: 640px) and (max-width: 1023px) {
+  .button {
+    padding: 15px 30px; /* for medium screens (tablets) */
+  }
+}
+
+@media (min-width: 1024px) {
+  .button {
+    padding: 20px 50px; /* for larger screens (desktops) */
+  }
 }
