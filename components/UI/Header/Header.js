@@ -6,11 +6,12 @@ import { MdOutlineMenu } from "react-icons/md";
 import { FaRegCalendarCheck } from "react-icons/fa";
 import { IoCloseSharp } from "react-icons/io5";
 import HeaderMenu from "./HeaderMenu";
+import Hero from "../Hero/Hero";
 
 const Header = () => {
   const [sideBar, setSideBar] = useState(false);
   return (
-    <div className="bg-clay min-h-[1145px]">
+    <div className="bg-clay min-h-[1045px]">
       <div className="container md:py-12 py-4 flex items-center justify-between">
         {/* left - button */}
         <>
@@ -51,11 +52,6 @@ const Header = () => {
         </>
       </div>
 
-      {/* header menu here */}
-      <div className="hidden md:block">
-        <HeaderMenu />
-      </div>
-
       {/* menu for mobile devices */}
       {/* black overlay */}
       {sideBar ? (
@@ -82,6 +78,14 @@ const Header = () => {
           <HeaderMenu verticalLayout={true} sidebar={sideBar} />
         </div>
       </div>
+
+      {/* header menu here */}
+      <div className="hidden md:block">
+        <HeaderMenu />
+      </div>
+
+      {/* hero section here */}
+      <Hero />
     </div>
   );
 };
