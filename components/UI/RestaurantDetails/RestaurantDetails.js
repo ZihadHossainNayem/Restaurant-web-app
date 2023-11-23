@@ -10,7 +10,7 @@ const RestaurantDetails = () => {
     <div className="min-h-screen bg-rose_white flex justify-center items-center">
       <div className="container flex flex-col lg:gap-28 gap-16">
         {/* top section - address, open hours, reservation details */}
-        <div className="flex justify-between flex-wrap mt-24">
+        <div className="flex justify-between flex-wrap lg:mt-32 mt-24">
           {/* address */}
           <div className="flex gap-4 pb-8 pr-4 items-center">
             <div className="w-16 h-16 bg-clay rounded-full flex items-center justify-center">
@@ -52,7 +52,7 @@ const RestaurantDetails = () => {
         </div>
 
         {/* bottom section - grid - about restaurant */}
-        <div className="grid lg:grid-cols-2 gap-12">
+        <div className="grid lg:grid-cols-2 gap-12 pb-24">
           {/* left */}
           <div>
             <Image src={aboutImage} alt="aboutImage" />
