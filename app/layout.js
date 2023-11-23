@@ -23,6 +23,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${josefin.variable} ${cormorant.variable}`}>
+      <link href="https://fonts.cdnfonts.com/css/cervanttis" rel="stylesheet" />
       <body className={cormorant.className}>
         <main>{children}</main>
       </body>

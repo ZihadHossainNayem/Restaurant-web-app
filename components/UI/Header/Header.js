@@ -3,7 +3,7 @@ import Image from "next/image";
 import React, { useState } from "react";
 import logo from "../../../public/Logo_res.png";
 import { MdOutlineMenu } from "react-icons/md";
-import { FaRegCalendarCheck } from "react-icons/fa";
+import { MdOutlineEditCalendar } from "react-icons/md";
 import { IoCloseSharp } from "react-icons/io5";
 import HeaderMenu from "./HeaderMenu";
 import Hero from "../Hero/Hero";
@@ -47,7 +47,7 @@ const Header = () => {
             </button>
           </div>
           <span className="p-2 block md:hidden">
-            <FaRegCalendarCheck className="text-tan" size={28} />
+            <MdOutlineEditCalendar className="text-tan" size={28} />
           </span>
         </>
       </div>

@@ -17,9 +17,13 @@ const Hero = () => {
         </button>
       </div>
       {/* right */}
-      <div className="flex justify-end mt-8">
+      <div className="flex lg:justify-end justify-center mt-8">
         <div className="bg-white/10 max-h-[718px] max-w-[656px] rounded-t-full p-4">
-          <Image src={heroImage} alt="heroImage" className="rounded-t-full" />
+          <Image
+            src={heroImage}
+            alt="heroImage"
+            className="rounded-t-full shadow-2xl"
+          />
         </div>
       </div>
     </div>
