@@ -89,7 +89,7 @@ const RestaurantDetails = () => {
             {/* signature */}
             <div>
               <p className="font-josefin">JOSEFINE</p>
-              <h3 className="sign">Josefine</h3>
+              <h3 className="sign pl-3">Josefine</h3>
             </div>
           </div>
         </div>
