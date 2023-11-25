@@ -34,13 +34,12 @@ const Testimonial = () => {
           pagination={{
             dynamicBullets: true,
             renderBullet: function (index, className) {
-              return `<span class="${className}" style="background-color: white; width: 10px; height: 10px;"></span>`;
+              return `<span class="${className}" style="background-color: white; width: 13px; height: 13px;"></span>`;
             },
           }}
           modules={[Pagination]}
           className="mySwiper"
           spaceBetween={20}
-          loop={true}
           breakpoints={{
             640: {
               slidesPerView: 1, // Show one card on small screens
