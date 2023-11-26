@@ -7,7 +7,7 @@ import Image from "next/image";
 
 const RestaurantDetails = () => {
   return (
-    <div className="min-h-screen bg-rose_white flex justify-center items-center">
+    <div className="min-h-screen bg-rose_white text-clay flex justify-center items-center">
       <div className="container flex flex-col lg:gap-28 gap-16">
         {/* top section - address, open hours, reservation details */}
         <div className="flex justify-between flex-wrap lg:mt-32 mt-24">
@@ -62,7 +62,7 @@ const RestaurantDetails = () => {
           <div className="lg:pl-8 pl-0 lg:border-l border-tan/60 flex flex-col gap-8">
             <div>
               <h4>The Story</h4>
-              <p className="font-josefin pt-5">
+              <p className="font-josefin pt-5 text-gray">
                 Lorem Ipsum is that it has a more-or-less normal distribution of
                 letters, as opposed to using 'Content here, content gfshere',
                 makinlook like readable English. Many desktop publishing
@@ -73,13 +73,13 @@ const RestaurantDetails = () => {
             <div className="grid grid-cols-2 gap-10">
               <div>
                 <h4>1998</h4>
-                <p className="font-josefin pt-3">
+                <p className="font-josefin pt-3 text-gray">
                   Lorem Ipsum is that it has a more-or-less normal distribution
                 </p>
               </div>
               <div>
                 <h4>2023</h4>
-                <p className="font-josefin pt-3">
+                <p className="font-josefin pt-3 text-gray">
                   Lorem Ipsum is that it has a more-or-less normal Content
                   content
                 </p>

@@ -42,7 +42,7 @@ const OfferCard = ({ offer }) => {
         </p>
 
         <h4 className="py-5">{offer.name}</h4>
-        <p className="font-josefin">{offer.description}</p>
+        <p className="font-josefin text-gray">{offer.description}</p>
       </div>
 
       <Image

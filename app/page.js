@@ -6,6 +6,8 @@ import React from "react";
 import bgImage from "../public/bgImage.png";
 import Image from "next/image";
 import PopularDishes from "@/components/UI/PopularDishes/PopularDishes";
+import ServicesOffer from "@/components/UI/ServicesOffer/ServicesOffer";
+import BlogHome from "@/components/UI/BlogHome/BlogHome";
 
 const HomePage = () => {
   return (
@@ -20,7 +22,10 @@ const HomePage = () => {
         alt="bgImage"
         className="min-h-[360px] object-cover"
       />
+
       <PopularDishes />
+      <ServicesOffer />
+      <BlogHome />
     </div>
   );
 };

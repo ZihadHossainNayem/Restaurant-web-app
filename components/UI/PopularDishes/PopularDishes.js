@@ -6,7 +6,7 @@ import popularDishes from "@/data/PopularDishes";
 
 const PopularDishes = () => {
   return (
-    <div className="bg-white">
+    <div className="bg-white text-clay">
       <div className="container md:py-36 py-12">
         {/* text */}
         <div className="flex flex-col items-center">
@@ -16,7 +16,7 @@ const PopularDishes = () => {
             </span>
           </p>
           <h4 className="pb-6">Our special Offer dishes</h4>
-          <p className="font-josefin pb-8 text-center">
+          <p className="font-josefin pb-8 text-center max-w-[702px] text-gray">
             Lorem Ipsum is that it has a more-or-less normal distribution of
             letters, as opposed to using 'Content here, content making.
           </p>
@@ -37,7 +37,7 @@ const PopularDishes = () => {
             <span className="px-2 py-2 border-t border-b border-tan">Menu</span>
           </p>
           <h4 className="pb-6">Popular Dishes</h4>
-          <p className="font-josefin text-center">
+          <p className="font-josefin text-center text-gray max-w-[702px]">
             Lorem Ipsum is that it has a more-or-less normal distribution of
             letters, as opposed to using 'Content here, content making.
           </p>

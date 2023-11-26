@@ -7,14 +7,14 @@ import MenuDeserts from "@/data/MenuDeserts";
 
 const HomeMenu = () => {
   return (
-    <div className="min-h-screen lg:py-36 py-24">
+    <div className="min-h-screen lg:py-36 py-24 bg-white text-clay">
       <div className="container grid lg:grid-cols-12">
         {/* left */}
         <div className="col-span-4">
           <p className="font-josefin"> Menu</p>
           <h4 className="py-6">Try Our Special Offers</h4>
 
-          <p className="font-josefin">
+          <p className="font-josefin text-gray">
             Lorem Ipsum is that it has a more-or-less normal distribution of
             letters, as opposed to using 'Content here, content making it look
             like readable English.

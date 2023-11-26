@@ -23,7 +23,7 @@ const PopularDishCard = ({ popularDish }) => {
           <h6>{popularDish.price} Tk.</h6>
         </div>
 
-        <p className="font-josefin pt-4">{popularDish.description}</p>
+        <p className="font-josefin pt-4 text-gray">{popularDish.description}</p>
       </div>
     </div>
   );
