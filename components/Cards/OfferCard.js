@@ -24,7 +24,7 @@ const OfferCard = ({ offer }) => {
           />
         </svg>
         <div
-          className="text-center absolute top-[85px] left-[70px] text-white"
+          className="text-center absolute top-[85px] left-[50px] text-white"
           style={{ transform: "rotate(-20deg)" }}
         >
           <p className="uppercase font-josefin text-base">only</p>
@@ -48,7 +48,7 @@ const OfferCard = ({ offer }) => {
       <Image
         src={pattern}
         alt="pattern"
-        className="absolute top-0 left-36"
+        className="absolute top-0 left-[125px]"
         width={240}
       />
 

@@ -8,6 +8,8 @@ import Image from "next/image";
 import PopularDishes from "@/components/UI/PopularDishes/PopularDishes";
 import ServicesOffer from "@/components/UI/ServicesOffer/ServicesOffer";
 import BlogHome from "@/components/UI/BlogHome/BlogHome";
+import BookingFormHome from "@/components/UI/BookingForm/BookingFormHome";
+import Footer from "@/components/UI/Footer/Footer";
 
 const HomePage = () => {
   return (
@@ -26,6 +28,8 @@ const HomePage = () => {
       <PopularDishes />
       <ServicesOffer />
       <BlogHome />
+      <BookingFormHome />
+      <Footer />
     </div>
   );
 };
