@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 import {
   FaFacebook,
@@ -29,25 +30,39 @@ const HeaderMenu = ({ verticalLayout, sidebar }) => {
             }`}
           >
             <li>
-              <p>Homes</p>
+              <Link href="/">
+                <p>Homes</p>
+              </Link>
             </li>
             <li>
-              <p>About</p>
+              <Link href="/about">
+                <p>About</p>
+              </Link>
             </li>
             <li>
-              <p>Menu</p>
+              <Link href="/menu">
+                <p>Menu</p>
+              </Link>
             </li>
             <li>
-              <p>Reservation</p>
+              <Link href="/reservation">
+                <p>Reservation</p>
+              </Link>
             </li>
             <li>
-              <p>Gallery</p>
+              <Link href="/gallery">
+                <p>Gallery</p>
+              </Link>
             </li>
             <li>
-              <p>Blog</p>
+              <Link href="/blog">
+                <p>Blog</p>
+              </Link>
             </li>
             <li>
-              <p>Contact</p>
+              <Link href="/contact">
+                <p>Contact</p>
+              </Link>
             </li>
           </ul>
         </div>

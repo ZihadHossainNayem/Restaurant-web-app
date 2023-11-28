@@ -40,7 +40,7 @@ const blog = [
   },
   {
     id: 5,
-    image: blogImage4,
+    image: blogImage5,
     date: "NOV 19, 2023",
     title: "Elegant Dessert: 10 Tips How to Make It at Home",
     description:
@@ -48,7 +48,7 @@ const blog = [
   },
   {
     id: 6,
-    image: blogImage4,
+    image: blogImage6,
     date: "NOV 23, 2023",
     title: "Elegant Dessert: 10 Tips How to Make It at Home",
     description:

@@ -46,15 +46,15 @@ const Footer = () => {
                 contact
               </span>
             </p>
+            <div className="flex flex-col gap-1">
+              <p className="font-josefin"> House No: 31, Avenue 2, Mirpur 11</p>
+              <p className="font-josefin">
+                <span className="text-tan">Call</span> - 09678 112233
+              </p>
 
-            <p className="font-josefin"> House No: 31, Avenue 2, Mirpur 11</p>
-            <p className="font-josefin">
-              <span className="text-tan">Call</span> - 09678 112233
-            </p>
-
-            <p className="font-josefin text-tan">hirestaurantate@gmail.com</p>
+              <p className="font-josefin text-tan">hirestaurantate@gmail.com</p>
+            </div>
           </div>
-
           {/* middle - 2 */}
           <div className="flex flex-col justify-center items-center">
             <p className="text-center font-josefin max-w-[305px] mb-8">

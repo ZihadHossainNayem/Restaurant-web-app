@@ -10,11 +10,13 @@ import ServicesOffer from "@/components/UI/ServicesOffer/ServicesOffer";
 import BlogHome from "@/components/UI/BlogHome/BlogHome";
 import BookingFormHome from "@/components/UI/BookingForm/BookingFormHome";
 import Footer from "@/components/UI/Footer/Footer";
+import Hero from "@/components/UI/Hero/Hero";
 
 const HomePage = () => {
   return (
     <div>
       <Header />
+      <Hero />
       <RestaurantDetails />
       <HomeMenu />
       <Testimonial />

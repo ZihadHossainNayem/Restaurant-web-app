@@ -11,7 +11,7 @@ import Hero from "../Hero/Hero";
 const Header = () => {
   const [sideBar, setSideBar] = useState(false);
   return (
-    <div className="bg-clay min-h-[1045px]">
+    <div className="bg-clay">
       <div className="container md:py-12 py-4 flex items-center justify-between">
         {/* left - button */}
         <>
@@ -83,9 +83,6 @@ const Header = () => {
       <div className="hidden md:block">
         <HeaderMenu />
       </div>
-
-      {/* hero section here */}
-      <Hero />
     </div>
   );
 };
