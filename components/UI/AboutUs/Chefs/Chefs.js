@@ -4,7 +4,7 @@ import chefsData from "@/data/ChefsData";
 
 const AboutUsChefs = () => {
   return (
-    <div className="bg-rose_white md:py-32 py-24">
+    <div className="bg-rose_white text-clay md:py-32 py-24">
       <div className="container">
         <div className="flex flex-col justify-center items-center">
           <p className="font-josefin text-base uppercase tracking-widest">

@@ -11,7 +11,7 @@ import NewsLetterForm from "@/components/Forms/NewsLetterForm";
 
 const Footer = () => {
   return (
-    <div className="bg-clay text-white md:pt-[80px] md:pb-[10px] py-[30px]">
+    <div className="bg-[#1f242c] text-white md:pt-[80px] md:pb-[10px] py-[30px]">
       <div className="container">
         {/* top section */}
         <div className="flex items-center justify-between md:flex-row flex-col gap-8 mb-16">

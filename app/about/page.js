@@ -10,14 +10,12 @@ import React from "react";
 
 const AboutPage = () => {
   return (
-    <div>
+    <>
       <Header />
-      <div className="h-[190px] bg-clay text-white">
-        <div className="flex items-center justify-center h-full">
-          <h2 className="py-1 border-t border-b border-tan inline-block">
-            About Us
-          </h2>
-        </div>
+      <div className="h-[190px] bg-clay text-white flex items-center justify-center">
+        <h2 className="py-1 border-t border-b border-tan inline-block">
+          About Us
+        </h2>
       </div>
       <AboutUsHero />
       <AboutUsCategory />
@@ -26,7 +24,7 @@ const AboutPage = () => {
       <AboutUsGallery />
       <BookingFormHome />
       <Footer />
-    </div>
+    </>
   );
 };
 

@@ -115,7 +115,7 @@ const HomeMenu = () => {
             <div>
               <h4 className="mb-10">Dessert</h4>
               {/* image */}
-              {MenuDeserts.map((starter, index) => (
+              {MenuDeserts.slice(0, 2).map((starter, index) => (
                 <div
                   key={index}
                   className="flex md:gap-8 gap-4 items-center mb-12"

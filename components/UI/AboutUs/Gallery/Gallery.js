@@ -8,7 +8,7 @@ import Image from "next/image";
 
 const AboutUsGallery = () => {
   return (
-    <div className="bg-white md:py-32 py-24">
+    <div className="bg-white text-clay md:py-32 py-24">
       <div className="container flex flex-col items-center">
         <p className="uppercase font-josefin text-base tracking-widest">
           <span className="py-1 border-t border-b border-tan">gallery</span>
