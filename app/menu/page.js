@@ -9,7 +9,7 @@ import DessertMenu from "@/components/UI/OurMenu/DessertMenu/DessertMenu";
 import BookingFormHome from "@/components/UI/BookingForm/BookingFormHome";
 import Footer from "@/components/UI/Footer/Footer";
 
-const page = () => {
+const MenuPage = () => {
   return (
     <>
       <Header />
@@ -45,4 +45,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default MenuPage;
