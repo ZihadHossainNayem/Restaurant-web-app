@@ -17,8 +17,14 @@ const AboutUsChefs = () => {
         </Link>
 
         <div className="mt-16 flex justify-center flex-wrap gap-4">
-          {chefsData.slice(0, 4).map((chef) => (
-            <ChefsCard chef={chef} width={245} height={255} boxHeight={400} />
+          {chefsData.slice(0, 4).map((chef, index) => (
+            <ChefsCard
+              key={index}
+              chef={chef}
+              width={245}
+              height={255}
+              boxHeight={400}
+            />
           ))}
         </div>
       </div>

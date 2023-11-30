@@ -7,6 +7,7 @@ import { MdOutlineEditCalendar } from "react-icons/md";
 import { IoCloseSharp } from "react-icons/io5";
 import HeaderMenu from "./HeaderMenu";
 import Hero from "../Hero/Hero";
+import Link from "next/link";
 
 const Header = () => {
   const [sideBar, setSideBar] = useState(false);
@@ -30,15 +31,17 @@ const Header = () => {
           </span>
         </>
         {/* middle - logo */}
-        <div className="flex flex-1 justify-center">
-          <Image
-            src={logo}
-            alt="logo"
-            width={378}
-            height={187}
-            className="md:w-[340px] w-[240px]"
-          />
-        </div>
+        <Link href={"/"}>
+          <div className="flex flex-1 justify-center">
+            <Image
+              src={logo}
+              alt="logo"
+              width={378}
+              height={187}
+              className="md:w-[340px] w-[240px]"
+            />
+          </div>
+        </Link>
         {/* right - button */}
         <>
           <div className="md:block hidden">

@@ -10,15 +10,22 @@ import Link from "next/link";
 
 const ChefsCard = ({ chef, width, height, boxHeight, socials }) => {
   return (
-    <div className={`w-[${width}px] max-h-[${boxHeight}px] text-clay`}>
-      <div className={`w-full h-[${height}px] relative overflow-hidden group`}>
+    <div
+      className="text-clay"
+      style={{ width: `${width}px`, maxHeight: `${boxHeight}px` }}
+    >
+      <div
+        className="w-full overflow-hidden group"
+        style={{ height: `${height}px` }}
+      >
         <Link href={`/chef/${chef.id}`}>
-          <div className="bg-[#a0aeaf] w-full h-full"></div>
-          <Image
-            src={chef.image}
-            alt={chef.name}
-            className="w-full absolute bottom-0 left-0"
-          />
+          <div className="bg-[#a0aeaf] relative h-full">
+            <Image
+              src={chef.image}
+              alt={chef.name}
+              className="w-full h-full absolute bottom-0 left-0"
+            />
+          </div>
         </Link>
         {socials && (
           <div className="relative">
