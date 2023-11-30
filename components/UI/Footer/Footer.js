@@ -64,7 +64,7 @@ const Footer = () => {
           </div>
 
           {/* middle - 3 */}
-          <div>
+          <div className="flex flex-col lg:text-start text-center">
             <p className="uppercase  tracking-widest font-josefin mb-8">
               <span className="border-t border-b border-tan py-1 text-[15px]">
                 working hours

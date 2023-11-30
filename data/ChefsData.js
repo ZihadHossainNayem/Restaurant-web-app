@@ -19,7 +19,7 @@ const chefsData = [
       "Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divid with additional clickthroughs from Nanotechnology immersion along the information highway will close the loop on focusing solely the bottom line.",
     experience: "10 Years of Experience",
     mail: "avorko@gmail.com",
-    phone: 800 - 234 - 567,
+    phone: " 800 - 234 - 567",
   },
   {
     id: 2,
@@ -34,7 +34,7 @@ const chefsData = [
       "Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divid with additional clickthroughs from Nanotechnology immersion along the information highway will close the loop on focusing solely the bottom line.",
     experience: "10 Years of Experience",
     mail: "evan@gmail.com",
-    phone: 800 - 234 - 568,
+    phone: " 800 - 234 - 568",
   },
   {
     id: 3,
@@ -49,7 +49,7 @@ const chefsData = [
       "Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divid with additional clickthroughs from Nanotechnology immersion along the information highway will close the loop on focusing solely the bottom line.",
     experience: "25 Years of Experience",
     mail: "diane@gmail.com",
-    phone: 800 - 234 - 569,
+    phone: " 800 - 234 - 569",
   },
   {
     id: 4,
@@ -64,12 +64,12 @@ const chefsData = [
       "Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divid with additional clickthroughs from Nanotechnology immersion along the information highway will close the loop on focusing solely the bottom line.",
     experience: "12 Years of Experience",
     mail: "dan@gmail.com",
-    phone: 800 - 234 - 561,
+    phone: "800 - 234 - 561",
   },
   {
     id: 5,
     image: chef5,
-    name: "Diane smith",
+    name: "Evan Yan",
     position: "Assistant Chef",
     insta: "",
     facebook: "",
@@ -78,13 +78,13 @@ const chefsData = [
     description:
       "Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divid with additional clickthroughs from Nanotechnology immersion along the information highway will close the loop on focusing solely the bottom line.",
     experience: "20 Years of Experience",
-    mail: "smith@gmail.com",
-    phone: 800 - 234 - 562,
+    mail: "yan@gmail.com",
+    phone: "800 - 234 - 562",
   },
   {
     id: 6,
     image: chef6,
-    name: "Avroko",
+    name: "Diane smith",
     position: "Senior Chef",
     insta: "",
     facebook: "",
@@ -93,8 +93,8 @@ const chefsData = [
     description:
       "Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divid with additional clickthroughs from Nanotechnology immersion along the information highway will close the loop on focusing solely the bottom line.",
     experience: "28 Years of Experience",
-    mail: "avorko@gmail.com",
-    phone: 800 - 234 - 563,
+    mail: "smith@gmail.com",
+    phone: "800 - 234 - 563",
   },
 ];
 

@@ -21,6 +21,7 @@ const OurChefs = () => {
               width={432}
               height={467}
               boxHeight={800}
+              socials={true}
             />
           ))}
         </div>

@@ -13,7 +13,7 @@ const BookingForm = () => {
       </p>
       <h4 className="capitalize mt-5">book your table now</h4>
 
-      <form className="mt-10 min-w-[260px]">
+      <form className="mt-10">
         <div className="flex gap-6 w-full justify-between md:flex-row flex-col ">
           <input
             type="text"

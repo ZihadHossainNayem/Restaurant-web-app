@@ -5,7 +5,7 @@ const NewsLetterForm = () => {
   const [showPlaceholderEmail, setShowPlaceholderEmail] = useState(true);
   return (
     <>
-      <form className="flex">
+      <form className="flex md:flex-row flex-col gap-4 md:gap-0">
         <input
           type="email"
           placeholder={showPlaceholderEmail ? "Email" : ""}
