@@ -9,7 +9,7 @@ const BlogCard = ({ blog }) => {
         <Image src={blog.image} alt="blogImage1" />
         <div className="opacity-0 group-hover:opacity-100 absolute top-0 left-0 w-full h-full flex justify-center items-center">
           <button className="button text-tan transform -translate-y-full transition-all duration-700 group-hover:translate-y-0">
-            <p className="text-josephin text-2xl">View More</p>
+            <p className="text-josephin text-2xl">Read More</p>
           </button>
         </div>
       </div>
