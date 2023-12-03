@@ -31,7 +31,7 @@ const HeaderMenu = ({ verticalLayout, sidebar }) => {
           >
             <li>
               <Link href="/">
-                <p>Homes</p>
+                <p>Home</p>
               </Link>
             </li>
             <li>

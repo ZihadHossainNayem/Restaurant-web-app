@@ -6,7 +6,7 @@ import React from "react";
 
 const ContactPage = () => {
   return (
-    <div>
+    <>
       <Header />
 
       <div className="h-[190px] bg-clay text-white flex items-center justify-center">
@@ -20,7 +20,7 @@ const ContactPage = () => {
       <BranchLocation />
 
       <Footer />
-    </div>
+    </>
   );
 };
 
