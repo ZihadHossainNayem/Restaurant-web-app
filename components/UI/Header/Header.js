@@ -45,9 +45,11 @@ const Header = () => {
         {/* right - button */}
         <>
           <div className="md:block hidden">
-            <button className="button">
-              <p className="text-white font-josefin">Reservation</p>
-            </button>
+            <Link href={"/reservation"}>
+              <button className="button">
+                <p className="text-white font-josefin">Reservation</p>
+              </button>
+            </Link>
           </div>
           <span className="p-2 block md:hidden">
             <MdOutlineEditCalendar className="text-tan" size={28} />
