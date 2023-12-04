@@ -3,6 +3,7 @@ import React from "react";
 import OfferDishes from "@/data/OfferDishes";
 import PopularDishCard from "@/components/Cards/PopularDishCard";
 import popularDishes from "@/data/PopularDishes";
+import Link from "next/link";
 
 const PopularDishes = () => {
   return (
@@ -52,9 +53,11 @@ const PopularDishes = () => {
 
         {/* button */}
         <div className="flex justify-center">
-          <button className="button hover:bg-clay hover:text-white">
-            <p className="font-josefin">See all dishes</p>
-          </button>
+          <Link href={"/menu"}>
+            <button className="button hover:bg-clay hover:text-white">
+              <p className="font-josefin">See all dishes</p>
+            </button>
+          </Link>
         </div>
       </div>
     </div>

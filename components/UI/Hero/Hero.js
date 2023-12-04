@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import heroImage from "../../../public/HeroImage.jpg";
+import Link from "next/link";
 
 const Hero = () => {
   return (
@@ -13,9 +14,11 @@ const Hero = () => {
             Simply dummy text of the printing and typesetting industry. Lorem
             Ipsum has been the industry's standard dummy.
           </p>
-          <button className="button font-josefin hover:bg-tan hover:text-clay lg:mx-0 mx-auto">
-            <p>View Menu</p>
-          </button>
+          <Link href={"/menu"}>
+            <button className="button font-josefin hover:bg-tan hover:text-clay lg:mx-0 mx-auto">
+              <p>View Menu</p>
+            </button>
+          </Link>
         </div>
         {/* right */}
         <div className="flex lg:justify-end justify-center mt-8">

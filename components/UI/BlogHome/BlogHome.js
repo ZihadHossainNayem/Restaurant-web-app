@@ -1,6 +1,7 @@
 import BlogCard from "@/components/Cards/BlogCard";
 import React from "react";
 import blog from "@/data/blog";
+import Link from "next/link";
 
 const BlogHome = () => {
   return (
@@ -28,9 +29,11 @@ const BlogHome = () => {
         </div>
 
         <div className="flex items-center justify-center mt-12 ">
-          <button className="button text-tan hover:bg-clay hover:text-white">
-            <p className="text-josephin text-2xl">View More</p>
-          </button>
+          <Link href={"/blog"}>
+            <button className="button text-tan hover:bg-clay hover:text-white">
+              <p className="text-josephin text-2xl">View More</p>
+            </button>
+          </Link>
         </div>
       </div>
     </div>

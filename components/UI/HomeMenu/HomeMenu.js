@@ -4,6 +4,7 @@ import Image from "next/image";
 import MenuStarters from "@/data/MenuStarters";
 import MenuMainDish from "@/data/MenuMainDish";
 import MenuDeserts from "@/data/MenuDeserts";
+import Link from "next/link";
 
 const HomeMenu = () => {
   return (
@@ -21,10 +22,11 @@ const HomeMenu = () => {
           </p>
 
           <Image src={homeMenu} alt="homeMenu" className="py-12" />
-
-          <button className="button font-josefin text-tan hover:bg-clay hover:text-white">
-            See all dishes
-          </button>
+          <Link href={"/menu"}>
+            <button className="button font-josefin text-tan hover:bg-clay hover:text-white">
+              See all dishes
+            </button>
+          </Link>
         </div>
 
         {/* gap grid */}
